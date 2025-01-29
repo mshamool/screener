@@ -1,0 +1,240 @@
+body{
+    font-family: "Inter var", "Inter", sans-serif;
+}
+.bg-body-tertiary{
+    background-color: rgb(241 244 248);
+}
+#nbtxt{
+    padding: 0 1.5rem;
+    color: rgba(99, 96, 96, 0.89);
+    margin: 0;
+}
+#btn1{
+    border: 1px solid rgba(154, 150, 150, 0.895);
+    background-color: white;
+    font-size: .9rem;
+}
+#btn1:hover{
+    color: rgb(134, 49, 219);
+}
+#btn2{
+    border: 1px solid rgb(134, 49, 219);
+    color: rgb(134, 49, 219);
+    background-color: white;
+    font-size: .9rem;
+}
+.fa-user{
+    color: rgb(134, 49, 219);
+    padding: 0px 5px;
+}
+.fa-angle-down{
+    padding: 0px 5px;
+}
+#logosection{
+    margin-top: 14rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#logotext{
+    font-size:1.25rem;
+    margin-top: 14px;
+}
+
+.searchbarouter{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.searchbar{
+    background-color: white;
+    border: 1px solid rgba(168, 164, 164, 0.868);
+    border-radius: 6px;
+    min-width: 300px;
+    max-width: 100%;
+    width: 49%;
+    height: 55px;
+    text-align: left;
+    padding: 10px 10px;
+}
+.searchbar input{
+    border: none;
+    outline: none;
+}
+
+.listouter{
+    min-width: 300px;
+    width: 49%;
+}
+.listitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 27px;
+}
+.comlstm{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.comlist{
+    border: 1px solid rgba(168, 164, 164, 0.868);
+    border-radius: 6px; 
+    margin: 5px 9px;
+    padding: 0px 16px;
+    height: 30px;
+    font-size: 0.9rem;
+    color: rgba(132, 130, 130, 0.868);
+}
+.comlist:hover{
+    background-color: white;
+    color: #645DF9;
+    cursor: pointer;
+}
+#footerbtn{
+    border: 1px solid #645DF9;
+    color: #645DF9;
+    background-color: white;
+    font-size: .9rem;
+    padding: 5px 15px;
+}
+.footertxt{
+    font-size: .91rem;
+    color: rgb(101, 94, 94);
+    margin-top: 2px;
+}
+.footertxt2{
+    font-size: .9rem;
+    color: rgb(101, 94, 94);
+    margin-top: 2px;
+}
+.footertxt2 a{
+    font-size: .9rem;
+    color: rgb(101, 94, 94);
+    margin-top: 2px;
+    text-decoration:  underline;
+}
+
+#rightfooter1{
+    padding-left: 7rem;
+}
+#rftxtm{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.rftxt1{
+    font-size: .9rem;
+    margin: 12px 0;
+    color: rgb(101, 94, 94);
+}
+
+#rightfooter2{
+    padding-left: 5.6rem;
+}
+#rftxtm1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.rftxt2{
+    font-size: .9rem;
+    margin: 12px 0;
+    color: rgb(101, 94, 94);
+}
+
+#rightfooter3{
+    padding-left: .9rem;
+}
+#rftxtm2{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.rftxt3{
+    font-size: .9rem;
+    margin: 12px 0;
+    color: rgb(101, 94, 94);
+}
+
+
+
+
+@media (max-width:768px){
+    .mainnavbar{
+        background-color: rgba(247, 233, 214, 0.801);
+    }
+    #nbtxt,.comlist,.comlstm{
+        color: black;
+        font-weight: bold;
+    }
+    #btn1,#btn2{
+        font-weight: bold;
+    }
+    #logosection{
+        margin-top: 10.6rem;
+    }
+
+    .leftfooter{
+        padding-left: 10px;
+    }
+    .footertxt{
+        font-size: 1rem;
+        color: rgb(101, 94, 94);
+        margin-top: 2px;
+    }
+    .footertxt2{
+        font-size: 1rem;
+        color: rgb(101, 94, 94);
+        margin-top: 2px;
+    }
+    .footertxt2 a{
+        font-size: 1rem;
+        color: rgb(101, 94, 94);
+        margin-top: 2px;
+        text-decoration:  underline;
+    }
+
+
+    #rightfooter1{
+        padding-left: 4.2rem;
+    }
+    #rftxtm{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .rftxt1{
+        font-size: 1.2rem;
+        margin: 12px 0;
+        font-weight: bold;
+        color: black;
+    }
+
+    #rightfooter2{
+        padding-left: 4.2rem;
+        margin-top: 20px;
+    }
+    #rftxtm1{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .rftxt2{
+        font-size: 1.2;
+        margin: 12px 0;
+        font-weight: bold;
+        color: black;
+    }
+
+    #rightfooter3{
+        padding-left: 1rem;
+        margin-top: 20px;
+    }
+    #rftxtm2{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .rftxt3{
+        font-size: 1.2;
+        margin: 12px 0;
+        font-weight: bold;
+        color: black;
+    }
+
+
+}
